@@ -1,10 +1,12 @@
 
-.header {
+/*.header {
+    position: absolute;
     display: block;
-    background-color: gray;
+    background-color: rgb(71, 71, 71);
     width: 100vw;
     top: 0;
     margin: 0;
+    left: 0;
 }
 
 ul li {
@@ -15,14 +17,14 @@ ul li {
 }
 
 #nav_button{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #logo {
@@ -30,3 +32,44 @@ ul li {
     float: right;
     right: 10px;
 };
+*/
+
+.header {
+    position: absolute;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    top: 0;
+    margin: 0;
+    left: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 1px;
+    vertical-align: middle;
+}
+
+#nav_button{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#logo {
+    border-radius: 20px;
+    float: right;
+    right: 10px;
+    clear: left;
+    -ms-transform: translate(70vw,0);
+    transform: translate(70vw,0);
+    display: inline-block;
+    text-align: left;
+};
+

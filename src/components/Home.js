@@ -9,9 +9,10 @@ class Home extends React.Component{
                     <div className="title-text" >
                         <h1 id="top_title">OCEANIA</h1>
                         <hr id="title_divider"/>
-                        <h3>Minecraft, 1:1 Scale</h3>
+                        <h3 id="bottom_title">Minecraft, 1:1 Scale</h3>
                     </div>
                 </div>
+                
             </div>
         )
     }

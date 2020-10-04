@@ -1,6 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Important Note:
+
+I have used react-router to navigate. install it with:
+
+### `npm install --save react-router-dom`
+
 ## Available Scripts
+
+install packages with:
+
+### `npm install`
 
 In the project directory, you can run:
 

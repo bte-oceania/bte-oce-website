@@ -19,8 +19,9 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background-image: url('https://cdn.discordapp.com/attachments/754992367752314942/755369973651603496/final5.png');
+    background-image: url('../img/background.png');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .title-text {
@@ -34,7 +35,7 @@
     width: 900px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(255, 255, 255)
 }
 
 .title-text h1{

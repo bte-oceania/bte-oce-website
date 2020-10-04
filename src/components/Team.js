@@ -1,9 +1,13 @@
 import React from 'react';
+import '../css/Team.css';
 
 class Team extends React.Component {
     render(){
         return(
-            <div>The Team</div>
+            <div>
+                (// WRITE SOME HTML IN HERE, BUT DO NOT USE BODY TAGS, AND INSTEAD OF USING class="", USE className="")
+                
+            </div>
         );
     }
 }

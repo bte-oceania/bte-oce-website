@@ -22,16 +22,8 @@
     -webkit-box-align: center;
     align-items: center;
     position: relative;
-    
-    animation: wallpaperBlur 1s 1 ease-out;
-    animation-name: wallpaperBlur;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
+    overflow: hidden;
+    padding: 30px;
 }
 
 .hero-image
@@ -87,4 +79,11 @@
     height: 1px;
     background-color: white;
     border: 2px solid white;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    padding: 30px;
 }

@@ -1,12 +1,13 @@
 import React from 'react';
-import '../css/Home.css'
+import '../css/Home.scss'
 
 class Home extends React.Component{
     render(){
         return(
             <div className="home_main">
-                <div className="landing_page">
-                    <div className="title-text" >
+                <div className="hero">
+                    <img className="hero-image" src="https://cdn.discordapp.com/attachments/754992367752314942/755369973651603496/final5.png"></img>
+                    <div className="title-text">
                         <h1 id="top_title">OCEANIA</h1>
                         <hr id="title_divider"/>
                         <h3 id="bottom_title">Minecraft, 1:1 Scale</h3>

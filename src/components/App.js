@@ -5,7 +5,7 @@ import history from '../history';
 import Home from './Home';
 import BuildZones from './BuildZones'
 import Team from './Team'
-import '../css/App.css';
+import '../css/App.scss';
 
 const App = () => {
     return(

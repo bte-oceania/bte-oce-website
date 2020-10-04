@@ -34,14 +34,23 @@ ul li {
 };
 */
 
-.header {
-    position: absolute;
-    display: block;
+nav #menu-mobile-shown { display: none; }
+
+nav {
+    position: sticky;
     background-color: rgba(255, 255, 255, 0);
     width: 100vw;
     top: 0;
-    margin: 0;
+    margin: 0 auto;
     left: 0;
+    z-index:  29999;
+    height: 10vh;
+    align-items: stretch;
+}
+
+.logo {
+    background-color: transparent;
+    width: 7em;
 }
 
 ul li {
@@ -52,14 +61,14 @@ ul li {
 }
 
 .nav_button{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
-#title {
+.title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 #logo {

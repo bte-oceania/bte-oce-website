@@ -5,50 +5,82 @@
     
 }
 
-.landing_page{
-    /* position: relative;
-    display: block; */
+.hero   {
+    /* position: relative;*/
+    display: flex;
     text-align: center;
     /* right: 50%; */
     /* bottom: 50%; 
          transform: translate(50%,50%); */
     text-align: center;
     vertical-align: middle;
-    margin: 0;
-    position: absolute;
-    width: 100vw;
+    /* margin: 0; */
+    flex: content;
     height: 100vh;
-    z-index: -1;
+    z-index: 1;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    
+    animation: wallpaperBlur 1s 1 ease-out;
+    animation-name: wallpaperBlur;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.hero-image
+{
     background-image: url('https://cdn.discordapp.com/attachments/754992367752314942/755369973651603496/final5.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    position: absolute;
+    z-index: -10000;
+    width:100vw;
+    
 }
 
 .title-text {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    display: flex;
     flex: auto;
     vertical-align: middle;
-    margin: 0;
-    position: sticky;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     /* left: 0%; */
-    width: 75%;
+    width: 50%;
+    height: 20%;
+    flex-direction: column;
     /* -ms-transform: translate(-50%, -50%); */
     /* transform: translate(15%, 150%); */
     color: white;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
 }
 
 .title-text h1{
     font-weight: 300;
     font-size: 50px;
+    z-index: 1;
+
 }
 .title-text h3{
     font-weight: 300;
     font-size: 20PX;
+    z-index: 1;
 }
 
 #title_divider{
-    width: 90%;
+    width: 70%;
     -webkit-appearance: none;
     -moz-appearance: none;
     box-sizing: border-box;

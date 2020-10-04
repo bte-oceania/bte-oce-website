@@ -51,7 +51,7 @@ ul li {
     vertical-align: middle;
 }
 
-#nav_button{
+.nav_button{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }

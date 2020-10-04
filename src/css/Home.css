@@ -1,5 +1,5 @@
 .home_main {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0%;
     
@@ -19,7 +19,7 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background-image: url('../img/background.png');
+    background-image: url('https://cdn.discordapp.com/attachments/754992367752314942/755369973651603496/final5.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -27,15 +27,15 @@
 .title-text {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    flex: auto;
     vertical-align: middle;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 900px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255)
+    position: sticky;
+    /* left: 0%; */
+    width: 75%;
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(15%, 150%); */
+    color: white;
 }
 
 .title-text h1{
@@ -44,7 +44,7 @@
 }
 .title-text h3{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 20PX;
 }
 
 #title_divider{

@@ -7,6 +7,7 @@ import Home from './Home';
 import BuildZones from './BuildZones'
 import Team from './Team'
 import '../css/App.scss';
+import 'typeface-roboto';
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
                     <Header/>
                     <Switch >
                         <Route path="/" exact component={Home} />
-                        <Route path="/build-zones" component={BuildZones} />
+                        <Route path="/showcase" component={BuildZones} />
                         <Route path="/the-team" component={Team} />
                     </Switch>
                     <Footer/>

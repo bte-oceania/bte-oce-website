@@ -2,8 +2,11 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: black;
+    scroll-behavior: smooth;
+    
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
+

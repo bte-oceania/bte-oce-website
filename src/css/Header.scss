@@ -35,17 +35,23 @@ ul li {
 */
 
 nav #menu-mobile-shown { display: none; }
-
-nav {
+header {
     position: sticky;
-    background-color: rgba(255, 255, 255, 0);
-    width: 100vw;
     top: 0;
+    z-index: 29999;
+
+}
+
+header nav {
+   
+    display:flex;
+    z-index: 29999;
     margin: 0 auto;
-    left: 0;
-    z-index:  29999;
-    height: 10vh;
+    height:0vh;
     align-items: stretch;
+    position: -webkit-sticky;
+    align-items: flex-start;
+    
 }
 
 .logo {

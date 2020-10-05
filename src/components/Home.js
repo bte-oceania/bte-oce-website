@@ -1,12 +1,13 @@
 import React from 'react';
-import '../css/Home.scss'
+import '../css/Home.scss';
+import taupoblur from '../img/taupoblur.jpg'; 
 
 class Home extends React.Component{
     render(){
         return(
             <div className="home_main">
                 <div className="hero">
-                    <img className="hero-image" src="https://cdn.discordapp.com/attachments/754992367752314942/755369973651603496/final5.png"></img>
+                    <img className="hero-image" src={taupoblur}></img>
                     <div className="title-text">
                         <h1 id="top_title">OCEANIA</h1>
                         <hr id="title_divider"/>

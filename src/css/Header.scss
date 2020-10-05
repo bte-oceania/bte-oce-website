@@ -1,39 +1,4 @@
 
-/*.header {
-    position: absolute;
-    display: block;
-    background-color: rgb(71, 71, 71);
-    width: 100vw;
-    top: 0;
-    margin: 0;
-    left: 0;
-}
-
-ul li {
-    display: inline-block;
-    padding: 0 20px;
-    margin: 0 1px;
-    vertical-align: middle;
-}
-
-#nav_button{
-    color: white;
-    text-decoration: none;
-}
-
-#title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: white;
-}
-
-#logo {
-    border-radius: 20px;
-    float: right;
-    right: 10px;
-};
-*/
-
 nav #menu-mobile-shown { display: none; }
 header {
     position: sticky;
@@ -56,12 +21,12 @@ header nav {
 
 .logo {
     background-color: transparent;
-    width: 7em;
+    width: 5em;
 }
 
 ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 0 1px;
     vertical-align: middle;
 }
@@ -76,14 +41,4 @@ ul li {
     text-decoration: none;
     color: white;
 }
-
-#logo {
-    float: right;
-    border-radius: 20px;   
-    right: 10px;
-    clear: left;
-    -ms-transform: translate(70vw,0);
-    transform: translate(70vw,0);
-
-};
 

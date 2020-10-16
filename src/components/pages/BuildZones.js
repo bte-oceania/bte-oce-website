@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BuildZones extends React.Component {
+class Showcase extends React.Component {
     render(){
         return(
             <div>BuildZones</div>
@@ -8,4 +8,4 @@ class BuildZones extends React.Component {
     }
 }
 
-export default BuildZones;
+export default Showcase;

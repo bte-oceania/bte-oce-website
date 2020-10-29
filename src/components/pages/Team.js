@@ -1,15 +1,15 @@
 import React from 'react';
-import '../css/Team.scss';
+import '../../css/pages/Team.scss';
 
-class Team extends React.Component {
-    render(){
+const Team = () => {
+    
         return(
             <div>
                 (// WRITE SOME HTML IN HERE, BUT DO NOT USE BODY TAGS, AND INSTEAD OF USING class="", USE className="")
                 
             </div>
         );
-    }
+    
 }
 
 export default Team;

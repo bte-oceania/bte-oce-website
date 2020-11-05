@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Router, Route, Switch } from 'react-router';
 import history from '../history';
 import Home from './pages/Home';
-import Showcase from './pages/BuildZones'
+import Showcase from './pages/Showcase'
 import Team from './pages/Team'
 import '../css/App.scss';
 import 'typeface-roboto';
@@ -20,7 +20,7 @@ const App = () => {
                     <Switch >
                         <Route path="/" exact component={Home} />
                         <Route path="/showcase" component={Showcase} />
-                        <Route path="/the-team" component={Team} />
+                        <Route path="/team" component={Team} />
                     </Switch>
                     <Footer/>
                 </div>

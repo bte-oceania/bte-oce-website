@@ -6,7 +6,7 @@ import history from '../history';
 import Home from './pages/Home';
 import Showcase from './pages/Showcase'
 import Team from './pages/Team'
-import '../css/App.scss';
+import '../css/App.css';
 import 'typeface-roboto';
 
 

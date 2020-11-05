@@ -5,7 +5,7 @@ import './hero.scss';
 const Hero = () => {
     return(
         <div className="hero">
-                    <img className="hero-image" src={taupoblur}></img>
+                    <img className="hero-image" src={taupoblur} alt=""></img>
                     <div className="title-text">
                         <h1 id="top_title">OCEANIA</h1>
                         <hr id="title_divider"/>

@@ -7,12 +7,13 @@ import UserLoginButton from './header/UserLoginButton';
 const Header = () => {
     return(
         <header>
-            <div className="logo">
-                <img src={ logo }/>
+            <Link to="/" className="logo">
+                <img src={ logo } alt="logo"/>
                 <p className="logo-text">Oceania Build Team</p>
-            </div>
-            <nav className="header-nav">
-                <ul>
+            </Link>
+            <nav>
+                <ul className="header-nav">
+
                     <li>
                         <Link to="#" className="nav_button">Showcase</Link>
                     </li>

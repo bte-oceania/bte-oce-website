@@ -3,9 +3,11 @@ import Header from './Header';
 import Footer from './Footer';
 import { Router, Route, Switch } from 'react-router';
 import history from '../history';
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 import Showcase from './pages/Showcase'
-import Team from './pages/Team'
+import Team from './pages/Team';
+import Apply from './pages/Apply';
+import FAQ from './pages/FAQ'
 import '../css/App.css';
 import 'typeface-roboto';
 
@@ -16,11 +18,13 @@ const App = () => {
         <div className="container">
             <Router history={history}>
                 <div id="page">
-                    <Header/>
+                    <Header />
                     <Switch >
                         <Route path="/" exact component={Home} />
-                        <Route path="/showcase" component={Showcase} />
-                        <Route path="/team" component={Team} />
+                        <Route path="/showcase" exact component={Showcase} />
+                        <Route path="/team"  exact component={Team} />
+                        <Route path="/apply" exact component={Apply} />
+                        <Route path="/FAQ" exact component={FAQ} />
                     </Switch>
                     <Footer/>
                 </div>

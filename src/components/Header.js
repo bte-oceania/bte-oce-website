@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import logo from '../img/logo@2x.png';
 import UserProfile from './header/UserProfile';
 import UserLoginButton from './header/UserLoginButton';
+
 const { isMenuClosed } = true;
+
 const Header = () => {
     return(
         <header>
@@ -14,26 +16,27 @@ const Header = () => {
             </Link>
             <nav>
                 <ul className="header-nav">
+
                     <li>
-                        <Link to="#" className="nav_button">Showcase</Link>
+                        <Link to="/showcase" className="nav_button">Showcase</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>
                     </li>
                     <li>
-                        <Link to="#" className="nav_button">The Team</Link>
+                        <Link to="/team" className="nav_button">The Team</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>
                     </li>
                     <li>
-                        <Link to="#" className="nav_button">Apply</Link>
+                        <Link to="/apply" className="nav_button">Apply</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>
                     </li>
                     <li>
-                        <Link to="#" className="nav_button">FAQ</Link>
+                        <Link to="/FAQ" className="nav_button">FAQ</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>
@@ -43,10 +46,13 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+
+            <UserHeader />
             <UserHeader/>
             <div className='menu-btn ' onClick={ toggleMenu }>
                 <div className="menu-btn_burger"></div>
             </div>
+
         </header>
     );
 }

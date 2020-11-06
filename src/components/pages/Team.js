@@ -5,7 +5,7 @@ const Team = () => {
     
         return(
             <div>
-                (// WRITE SOME HTML IN HERE, BUT DO NOT USE BODY TAGS, AND INSTEAD OF USING class="", USE className="")
+                {/* WRITE SOME HTML IN HERE, BUT DO NOT USE BODY TAGS, AND INSTEAD OF USING class="", USE className="" */}
                 
             </div>
         );

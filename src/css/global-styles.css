@@ -12,7 +12,9 @@
     --navbar-user: #36546F;
     
     font-family: 'Open Sans', sans-serif;
-    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
     /* Font/text values
     --unnamed-font-family-open-sans: Open Sans;

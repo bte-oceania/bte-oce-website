@@ -8,7 +8,7 @@ class UserProfile extends React.Component {
 
         return (
             <div className="navbar-user">
-                <img className='navbar-user-img' src={ userPfp }/>
+                <img className='navbar-user-img' src={ userPfp } alt="profile picture"/>
                 <Link to="#" className="username-link">{username}</Link>
                 <nav className="user-nav">
                     <ul>

@@ -5,9 +5,12 @@ class UserLoginButton extends React.Component {
     render()
     {
         return (
-            <div className="navbar-user">
-                <Link to="#">Login / Register</Link>
-            </div>);
+            <div>
+                <Link to="Login" className="navbar-user">
+                    Login / Register
+                </Link>
+            </div>
+         );
     }
 }
 

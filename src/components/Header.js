@@ -23,7 +23,7 @@ const Header = () => {
                         <span className="link-seperate"/>
                     </li>
                     <li>
-                        <Link to="#" className="nav_button">The Team</Link>
+                        <Link to="/team" className="nav_button">The Team</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>
@@ -35,7 +35,7 @@ const Header = () => {
                         <span className="link-seperate"/>
                     </li>
                     <li>
-                        <Link to="#" className="nav_button">FAQ</Link>
+                        <Link to="/FAQ" className="nav_button">FAQ</Link>
                     </li>
                     <li>
                         <span className="link-seperate"/>

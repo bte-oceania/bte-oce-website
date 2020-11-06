@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../css/pages/Home.scss';
-import Hero from './home/Hero'
+import '../../../css/pages/Home.scss';
+import Hero from './Hero'
 //import HomeAboutSection from './home/About';
 
 

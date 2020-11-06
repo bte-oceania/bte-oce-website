@@ -1,3 +1,5 @@
+$breakpoint-tablet: 1030px;
+$breakpoint-phone: 840px;
 header {
     display:flex;
     justify-content: space-between;
@@ -79,6 +81,74 @@ header {
         :hover {
             color: white;
             background-color: #3A77A7;
+        }
+    }
+
+    .menu-btn {
+        display:none;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+}
+
+@media(max-width: $breakpoint-tablet)
+{
+    header {
+        .logo {
+            p { 
+                display:none;
+            }
+        }
+    } 
+}
+
+@media(max-width: $breakpoint-phone)
+{
+    header {
+        .header-nav {
+            display: none;
+        }
+        .navbar-user {
+            display:none;
+        }
+        .menu-btn {
+            display: flex;
+            width: 80px;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+
+            .menu-btn_burger {
+                width: 50px;
+                height: 6px;
+                background: white;
+                border-radius: 5px;
+                transition: all .5s ease-in-out;               
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 50px;
+                    height: 6px;
+                    background: white;
+                    border-radius: 5px;
+                    transition: all .5s ease-in-out;
+                    transform: translateY(-16px);
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 50px;
+                    height: 6px;
+                    background: white;
+                    border-radius: 5px;
+                    transition: all .5s ease-in-out;
+                    transform: translateY(16px);
+                }
+            }
         }
     }
 }

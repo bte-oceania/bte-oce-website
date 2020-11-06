@@ -1,0 +1,65 @@
+.login {
+    background-image: url('../../img/LoginBG@2x.png');
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+    display:flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding:0;
+    margin:0;
+
+    form {
+        width:536px;
+        height:510px;
+        background-color: var(--navbar-bg);
+        margin-top: calc(204px - calc(128px * 1.25));
+        border-radius: 51px;
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            padding-top: 23px;
+        }
+        input {
+            display: flex;
+            width: 420px;
+            height:40px;
+            border-radius: 27px;
+            border-style: hidden;
+            margin-top: 38px;
+            margin-bottom: 68px;
+            margin-left:  auto;
+            margin-right:  auto;
+            padding: 12px;
+            &::placeholder {
+                font-family: 'Open Sans', sans-serif;                
+            }
+        }
+
+        a, input[type=submit] {
+            margin-left:  auto;
+            margin-right:  auto;
+            width: 276px;
+            height: 50px;
+            border-radius: 43px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            &.registerBtn {
+                background-color: #1FC430;
+                color:white;                
+            }
+
+            &:hover {
+                color: white;
+                background-color: #3184c4;
+            }
+            
+        }
+        
+        
+    }
+}
+

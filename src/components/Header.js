@@ -5,6 +5,7 @@ import logo from '../img/logo@2x.png';
 import UserProfile from './header/UserProfile';
 import UserLoginButton from './header/UserLoginButton';
 
+const { isMenuClosed } = true;
 
 const Header = () => {
     return(
@@ -45,7 +46,13 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+
             <UserHeader />
+            <UserHeader/>
+            <div className='menu-btn ' onClick={ toggleMenu }>
+                <div className="menu-btn_burger"></div>
+            </div>
+
         </header>
     );
 }
@@ -59,5 +66,10 @@ function UserHeader(props) {
         return <UserLoginButton />;
     }
 }
+
+function toggleMenu(props) {
+    this.isMenuClosed = !this.isMenuClosed;
+}
+
 
 export default Header;

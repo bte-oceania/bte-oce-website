@@ -1,4 +1,5 @@
-
+$breakpoint-tablet: 1030px;
+$breakpoint-phone: 840px;
 header {
     display:flex;
     justify-content: space-between;
@@ -63,100 +64,91 @@ header {
             a:hover {
                 color: #71a4d1;
             }
+            
         }
-    }  
+    }
+
+    .navbar-user {
+        border-radius: 43px;
+        display: flex;
+        background-color:  #36546F;
+        height: 60px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease 0s;
+
+        :hover {
+            color: white;
+            background-color: #3A77A7;
+        }
+    }
+
+    .menu-btn {
+        display:none;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
 }
 
+@media(max-width: $breakpoint-tablet)
+{
+    header {
+        .logo {
+            p { 
+                display:none;
+            }
+        }
+    } 
+}
 
+@media(max-width: $breakpoint-phone)
+{
+    header {
+        .header-nav {
+            display: none;
+        }
+        .navbar-user {
+            display:none;
+        }
+        .menu-btn {
+            display: flex;
+            width: 80px;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
 
-// header {
-//     font-family: 'Open Sans', sans-serif;
+            .menu-btn_burger {
+                width: 50px;
+                height: 6px;
+                background: white;
+                border-radius: 5px;
+                transition: all .5s ease-in-out;               
 
-//     display:flex;
-//     position: -webkit-sticky;
-//     position: sticky;
-//     top: 0px;
-//     height:128px;
-//     //background-color: var(--navbar-bg);
-//     backdrop-filter: blur(7px);
-//     //     -webkit-backdrop-filter: blur(7px);
-//     z-index: 999;
-//     :after {
-        
-//         background-color: var(--navbar-bg);      
-//     }
-    
-//     .logo {
-//         // float: left;
-//         margin-left:39px;
-//         margin-top:14px;
-//         height:100px;
-//         display: flex;
-//         vertical-align: middle;
-        
-//         img {
-            
-//         }
-//         span {
-//             margin-left: 25px;
-//             font-size: 30px;
-//             font-weight: 'regular';
-//             margin-top: 30px;
-//         }
-//     }
-
-//     nav.header-nav {
-//         margin-left: auto;
-//         margin-right: auto;
-//         margin-top: 46.5px;
-//         padding:0;
-//         display:block;
-        
-//         ul {
-//             list-style: none;
-//             margin:0;
-//             padding:0;
-//             justify-content: space-between;
-            
-//             li {
-                
-//                 display:inline-block;
-//                 padding-left: 15.5px;
-//                 padding-right: 15.5px;
-//                 font-weight: 30;
-//                 font-size: 20px;
-//                 a {
-//                     display:inline-block;
-//                     color: #fff;                   
-                    
-//                 }
-//                 a:hover {
-//                     color: #0C3356;
-//                 }
-//                 span {
-//                     border: 1px solid var(--white);
-//                     border: 1px solid #FFFFFF;
-//                     height:40px;
-
-//                 }
-//             }
-//         }
-//     }
-
-//     .navbar-user {
-//         border-radius: 43px;
-//         display: flex;
-//         background-color:  #36546F;
-//         height: 60px;
-//         width: 200px;
-//         justify-content: center;
-//         align-items: center;
-//         transition: all 0.3s ease 0s;
-
-
-//         :hover {
-//             color: white;
-//             background-color: #3A77A7;
-//         }
-//     }
-// }}}
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 50px;
+                    height: 6px;
+                    background: white;
+                    border-radius: 5px;
+                    transition: all .5s ease-in-out;
+                    transform: translateY(-16px);
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 50px;
+                    height: 6px;
+                    background: white;
+                    border-radius: 5px;
+                    transition: all .5s ease-in-out;
+                    transform: translateY(16px);
+                }
+            }
+        }
+    }
+}

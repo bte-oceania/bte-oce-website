@@ -48,7 +48,6 @@ const Header = () => {
             </nav>
 
             <UserHeader />
-            <UserHeader/>
             <div className='menu-btn ' onClick={ toggleMenu }>
                 <div className="menu-btn_burger"></div>
             </div>

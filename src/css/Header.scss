@@ -1,3 +1,4 @@
+
 header {
     display:flex;
     justify-content: space-between;
@@ -63,6 +64,81 @@ header {
                 color: #71a4d1;
             }
             
+
+
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height:128px;
+    //background-color: var(--navbar-bg);
+    backdrop-filter: blur(7px);
+//     -webkit-backdrop-filter: blur(7px);
+    z-index: 999;
+    :after {
+        
+        background-color: var(--navbar-bg);      
+    }
+    
+    .logo {
+        // float: left;
+        margin-left:39px;
+        margin-top:14px;
+        height:100px;
+        display: flex;
+        vertical-align: middle;
+        
+        img {
+            
+        }
+        span {
+            margin-left: 25px;
+            font-size: 30px;
+            font-weight: 'regular';
+            margin-top: 30px;
+        }
+    }
+
+    nav.header-nav {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 46.5px;
+        padding:0;
+        display:block;
+        
+        ul {
+            list-style: none;
+            margin:0;
+            padding:0;
+            justify-content: space-between;
+            
+            li {
+                
+                display:inline-block;
+                padding-left: 15.5px;
+                padding-right: 15.5px;
+                font-weight: 30;
+                font-size: 20px;
+                a {
+                    display:inline-block;
+                    color: #fff;                   
+                    
+                }
+                a:hover {
+                    color: #0C3356;
+                }
+                span {
+                    border: 1px solid var(--white);
+                    border: 1px solid #FFFFFF;
+                    height:40px;
+
+                }
+            }
         }
     }
 
@@ -75,6 +151,7 @@ header {
         justify-content: center;
         align-items: center;
         transition: all 0.3s ease 0s;
+
 
         :hover {
             color: white;

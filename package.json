@@ -9,14 +9,15 @@
     "@testing-library/user-event": "^7.1.2",
     "file-loader": "^6.1.0",
     "node-sass": "^4.14.1",
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.2.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
     "redux": "^4.0.5",
-    "typeface-roboto": "0.0.75"
+    "typeface-roboto": "0.0.75",
+    "vue": "^3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

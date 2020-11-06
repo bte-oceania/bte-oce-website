@@ -1,6 +1,6 @@
 import taupoblur from '../../img/taupoblur.jpg'; 
 import React from 'react';
-import './hero.scss';
+import '../../css/pages/home/hero.scss';
 
 const Hero = () => {
     return(

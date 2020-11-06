@@ -1,0 +1,13 @@
+hero {
+    height:1100px;
+    width:100%;
+    background-image: url('../../../img/herobg@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:-128px;
+    left:-20px;
+    display: flex;
+    align-items: center;
+    flex: content;
+    position: relative;
+}

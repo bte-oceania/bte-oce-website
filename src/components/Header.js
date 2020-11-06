@@ -1,15 +1,18 @@
 import React from 'react';
 import '../css/Header.scss';
-import { Link } from 'react-router-dom';
+import { Link, useLocation  } from 'react-router-dom';
 import logo from '../img/logo@2x.png';
 import UserProfile from './header/UserProfile';
 import UserLoginButton from './header/UserLoginButton';
 
 const { isMenuClosed } = true;
 
+
 const Header = () => {
+    const isLanding = useLocation().pathname === "/";
     return(
-        <header>
+        
+        <header className={isLanding ? "landing" : ""}>
             <Link to="/" className="logo">
                 <img src={ logo } alt="logo"/>
                 <p className="logo-text">Oceania Build Team</p>

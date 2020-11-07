@@ -11,10 +11,14 @@ import FAQ from './pages/FAQ'
 import Login from './pages/Login';
 import '../css/App.css';
 import 'typeface-roboto';
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 
 
 const App = () => {
+
+    library.add(fab);
     return(
         <div className="container">
             <Router history={history}>

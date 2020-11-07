@@ -1,0 +1,47 @@
+team {
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    h1 {
+        font-weight: bold;
+    }
+    teamgroup {
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        divider {
+            display: flex;
+            margin:2.5px auto;
+            width: 30rem;
+            height: 1px;
+            border: 1px solid white;
+        }
+        members {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            order: 4;
+            member {
+                margin-top: 25.5px;
+                margin-bottom: 43px;
+                margin-left: 50px;
+                margin-right: 50px;
+
+                img {
+                    height:100px;
+                    border-radius: 50%;
+                }
+                p {
+                    
+                }
+            }
+        }
+    }
+    
+}

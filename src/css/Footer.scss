@@ -1,20 +1,57 @@
 footer {
     display:flex;
-
+    //position: absolute;
+    justify-content: space-around;
     align-items: center;
-    height: 122px;
+    height: 5rem;
+    width: 100%;
     z-index:800;
     bottom:0;
+    margin:0;
+    padding:0;
     
+    a {
+        color: white;
+    }
     background-color: var(--footer-bg);
     p {
-        justify-self: left;
-        margin: 43px 140px;
-        display: inline;
+        //justify-self: left;
+        //margin: 43px 140px;
+        //display: inline;
+        vertical-align: middle;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    ul {
+        margin:0;
+
     }
     li {
+        
         justify-items: right;
         text-decoration: none;
         display: inline-block;
+        a {
+            font-size: 2.5rem;
+            margin: 0.125rem 0.125rem;
+            color:white;
+            vertical-align: inherit;
+            #discord-icon {
+                padding-top: 0.125rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    footer {
+        flex-wrap: wrap;
+        height: auto;
+        margin: 0;
+        padding: 1rem 0;
+        li {
+            padding: 0.125rem;
+            margin: 0;
+        }
     }
 }

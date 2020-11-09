@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="server-icon.png" alt="Oceania Build Team"  width="20%">
+<img src="https://github.com/Coppertine/BTE-Oceania-Bot/raw/master/server-icon.png" alt="Oceania Build Team"  width="20%">
 </br>
 <h1>Oceania Build Team Website - Front End</h1>
 </div>

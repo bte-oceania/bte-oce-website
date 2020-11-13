@@ -123,6 +123,7 @@ header {
 @media(max-width: $breakpoint-phone)
 {
     header {
+        height: 50px;
         .header-nav {
             display: none;
         }
@@ -131,13 +132,13 @@ header {
         }
         .menu-btn {
             display: flex;
-            width: 80px;
+            width: 75px;
             height:calc(calc(6px * 3) + calc(16px*2));
             cursor: pointer;
             transition: all .5s ease-in-out;
 
             .menu-btn_burger {
-                width: 50px;
+                width: 25px;
                 height: 6px;
                 background: white;
                 border-radius: 5px;

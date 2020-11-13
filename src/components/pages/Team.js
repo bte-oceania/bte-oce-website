@@ -53,7 +53,7 @@ const Team = () => {
                     name: "seasandsurf",
                     position: "",
                     avatar: "../../img/seas@2x.png"
-                },
+                }
             ]
         }
     ]}; 

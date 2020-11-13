@@ -5,7 +5,7 @@ const TeamGroup = (props) => {
     const members = [];
     team.members.forEach(member => {
         members.push(<member>
-            <img src={member.avatar}></img>
+            <img src={member.avatar} alt={member.name}></img>
             <p>{member.name}</p>
         </member>);
     });

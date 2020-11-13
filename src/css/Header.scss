@@ -123,7 +123,12 @@ header {
 @media(max-width: $breakpoint-phone)
 {
     header {
-        height: 50px;
+        height: 75px;
+        .logo {
+            img{
+                height:50px;
+            }
+        }
         .header-nav {
             display: none;
         }
@@ -138,7 +143,7 @@ header {
             transition: all .5s ease-in-out;
 
             .menu-btn_burger {
-                width: 25px;
+                width: 50px;
                 height: 6px;
                 background: white;
                 border-radius: 5px;

@@ -124,6 +124,11 @@ header {
 {
     header {
         height: 50px;
+        .logo {
+            img{
+                height:75px;
+            }
+        }
         .header-nav {
             display: none;
         }

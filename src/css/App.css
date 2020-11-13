@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
 :root {
 
     /* Colors: */
@@ -5,9 +8,21 @@
     --white: #FFFFFF;
     --gallery-item-info: #000000;
     --footer-bg: #28567A;
-    --navbar-bg: #3A77A7;
+    --navbar-bg: rgb(58, 119, 167);
     --navbar-user: #36546F;
+    --text-color: #FFFFFF;
+    --header-nav-hover: #598dfd;
+    
+    
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
    
-    }
+}
+
+body {
+    color: var(--text-color);
+}
     

@@ -5,7 +5,7 @@ import logo from '../img/logo@2x.png';
 import UserProfile from './header/UserProfile';
 import UserLoginButton from './header/UserLoginButton';
 
-const { isMenuClosed } = true;
+let isMenuClosed = true;
 
 
 const Header = () => {
@@ -33,6 +33,12 @@ const Header = () => {
                         <span className="link-seperate"/>
                     </li>
                     <li>
+                        <Link to="/map" className="nav_button">Map</Link>
+                    </li>
+                    <li>
+                        <span className="link-seperate"/>
+                    </li>
+                    <li>
                         <Link to="/apply" className="nav_button">Apply</Link>
                     </li>
                     <li>
@@ -51,7 +57,7 @@ const Header = () => {
             </nav>
 
             <UserHeader />
-            <div className='menu-btn ' onClick={ toggleMenu }>
+            <div className={isMenuClosed ? 'menu-btn':'menu-btn mobile-open'} onClick={ toggleMenu }>
                 <div className="menu-btn_burger"></div>
             </div>
 
@@ -70,7 +76,8 @@ function UserHeader(props) {
 }
 
 function toggleMenu(props) {
-    this.isMenuClosed = !this.isMenuClosed;
+    isMenuClosed = !isMenuClosed;
+    return;
 }
 
 

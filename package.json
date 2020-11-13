@@ -13,7 +13,6 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "express": "^4.17.1",
-    "file-loader": "^6.1.0",
     "mysql": "^2.18.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
@@ -21,10 +20,9 @@
     "react-dropzone": "^11.2.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^4.0.0",
     "redux": "^4.0.5",
-    "typeface-roboto": "0.0.75",
-    "vue": "^3.0.2"
+    "typeface-roboto": "0.0.75"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "The Front End site for Oceania Build Team.",
   "main": "index.js",
   "devDependencies": {},
   "keywords": [],
